@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+/* body {
+    font-family: sans-serif;
+}
+
+.chat-button {
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    right: 30px;
+    bottom: 30px;
+    border: none;
+    cursor: pointer;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/3884/3884268.png");
+    background-color: transparent;
+    background-size: contain;
+} */
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.box {
+    width: 200px;
+    height:200px ;
+    margin: 20px;
+}
+
+.box:nth-child(1) {
+    background-color: red;
+    z-index: 1;
+}
+
+.box:nth-child(2) {
+    background-color: green;
+   z-index: 3;
+}
+
+.box:nth-child(3) {
+    background-color:  blue;
+    z-index: 1;
+}
+
+.relative-1 {
+    position: relative;
+    top: 125px;
+    right: 120px;
+}
+
+.relative-2 {
+    position: relative;
+    top: 251px;
+    right: 235px;
+}
+
+
+ /* body {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: grid;
+    place-items: center;
+}
+
+img {
+height: 100%;
+width: 30%;
+object-fit: cover;
+
+-webkit-box-reflect: below 2px linear-gradient(transparent , transparent , #000400);
+transform-origin: center;
+transform: perspective(800px) rotateY(25deg);
+transition: 0.5s;
+}
+
+.container {
+    max-width: 600px;
+    max-height: 350px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.container:hover img {
+    opacity: 0.3;
+}
+
+.container img:hover {
+opacity: 1;
+transform: perspective(800px) rotateY(0deg);
+}  */
