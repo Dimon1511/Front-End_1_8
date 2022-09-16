@@ -1,0 +1,227 @@
+/* MOBILE */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, p{
+    margin: 0;
+}
+.main-header{
+    background-image: url(./img/background-header.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 19px;
+    height: 542px;
+    margin-bottom: 63px;
+}
+.container{
+    max-width: 320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.link{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 13.9859px;
+    line-height: 17px;
+    color: white;
+    display: inline-block;
+}
+.logo-link{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    height: 173px;
+}
+.signup{
+    border: 2px solid #FFFFFF;
+    padding: 11px 5px;
+    border-radius: 20px;
+}
+.main-button{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14.0123px;
+    line-height: 17px;
+    margin-top: 19px;
+    color: #fff;
+    padding: 12px 46px;
+    background-color: #ff4e50;
+    border-radius: 30px;
+}
+.main-content{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+}
+.main-content .main-heading{
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30.041px;
+    line-height: 37px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main-text{
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 24.0211px;
+    line-height: 28px;
+    color: white;
+    text-align: center;
+    margin-bottom: 33px;
+}
+.partners-img-wrapper{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 13px;
+}
+.partners-img-wrapper::after{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 35px;
+    height: 35px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.partners-img-wrapper.img-01::after{
+    background-color: #FF4E50;
+    background-image: url(./img/tv.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.partners-img-wrapper.img-02::after{
+    background-color: #1CD7AD;
+    background-image: url(./img/coffee.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.partners-img-wrapper.img-03::after{
+    background-color: #ffa507;
+    background-image: url(./img/flask.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.partners-img-wrapper.img-04::after{
+    background-color: #4E73DB;
+    background-image: url(./img/tg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.partners-heading{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 22.0041px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.partners .container{
+    max-width: 320px;
+    padding: 0 20px;
+}
+.partners-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 14px;
+    justify-content: center;
+}
+.partners-item:first-child{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.partners-item{
+    flex-basis: 235px;
+    margin-top: 30px;
+    text-align: center;
+}
+.partners-name{
+    font-weight: 700;
+    font-size: 14.0112px;
+    line-height: 17px;
+    font-family: 'Montserrat';
+    margin-bottom: 13px;
+}
+.partners-description{
+    color: #666666;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14.0112px;
+    line-height: 16px;
+}
+.description-03{
+    margin-bottom: 29px;
+}
+.partners-button-div{
+    text-align: center;
+    margin-bottom: 69px;
+}
+.partners-button{
+    border: 2px solid #ff4e50;
+    color: #ff4e50;
+    border-radius: 30px;
+    padding: 12px 69px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14.001px;
+    line-height: 17px;
+}
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .container{
+        max-width: 768px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 0 auto;
+    }
+    .main-header{
+        min-height: 700px;
+    }
+    .header{
+        flex-direction: row;
+        max-width: 670px;
+    }
+    .main-content{
+        margin-top: 135px;
+        
+    }
+    .main-heading{
+        font-size: 52.0456px;
+        line-height: 63;
+    }
+    .logo{
+        padding-top: 0;
+    }
+    .main-button{
+        width: 228px;
+        height: 42px;
+    }
+}
