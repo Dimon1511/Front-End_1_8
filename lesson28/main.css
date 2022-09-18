@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-box{
+        background: green url("https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg") center/600px no-repeat;
+        width: 100%;
+        height: 100vh;
+}
+    
+.bg-box::before{
+        content: '';
+        width: 100%;
+        height: 100vh;
+        display: block;
+        position: absolute;
+        background: url(./img/lamp-png-0.png) top/50px repeat-x,
+                    url(./img/hedgehog.webp) left/50px repeat-y,
+                    url(./img/grass-png-images-pictures-transparent-28.png) bottom/200px repeat-x,
+                    url(./img/58eb07b830eab15b56162788.png) right/50px repeat-y;
+                    
+}
